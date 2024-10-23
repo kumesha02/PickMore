@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* WebKit scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #C2D9FF; /* Set the track background color */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C2D9FF; /* Set the thumb color */
+  border-radius: 6px; /* Add rounded corners to the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C2D9FF; /* Change thumb color on hover */
+}
+
+body {
+  background-color: #C2D9FF;
+}
+
+h1 {
+  text-align: center;
+  font-size: 55px;
+  color: #00A9FF;
+  font-weight: bold;
+  margin: 50px 0 50px 0;
+}
+.right-half {
+  background-color: white;
+  width: 550px;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 0 0 80px 0;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  margin-left: 490px;
+}
+label {
+  font-weight: bold;
+  font-size: 25px;
+}
+input,
+select,
+option {
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  margin: 5px 0 10px 0;
+}
+
+button {
+  background-color: #00A9FF;
+  color: white;
+  border: 0;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin: 20px 0 0 0;
+  text-align: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.dkt {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: 0;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin: 20px 0 0 0;
+  text-align: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.btncls {
+  text-align: center;
+}
+
+/* Style the navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style the logo */
+.logo1 {
+  width: 70px; /* Set the width of the logo to 30 pixels */
+  height: auto; /* Allow the height to adjust proportionally */
+  margin-right: 10px;
+  /* Adjust the margin between the logo and navigation */
+}
+
+/* Style the navigation menu */
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Style the container1 div */
+.container1 {
+  position: absolute;
+  top: 50%;
+  left: 71.25%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Semi-transparent white background */
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 400px; /* Adjust the maximum width as needed */
+  text-align: center;
+}
+

@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* WebKit scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #C2D9FF; /* Set the track background color */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00A9FF; /* Set the thumb color */
+  border-radius: 6px; /* Add rounded corners to the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background:#00A9FF; /* Change thumb color on hover */
+}
+body {
+  background-color: #C2D9FF;
+}
+
+.box-content {
+  background-color: white;
+  width: 540px;
+  padding: 0 25px 25px 25px;
+  box-shadow: 2px 2px 2px #00A9FF(7, 165, 47, 0.567);
+  border-radius: 10px;
+  border: 1px solid #00A9FF;
+}
+.dnimg {
+  width: 500px;
+  background-size: cover;
+}
+.full {
+  margin-left: 500px;
+  margin-top: 300px;
+}
+
+button {
+  background-color: #00A9FF;
+  color: white;
+  border: 0;
+  font-size: 23px;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin: 20px 0 0 0;
+  text-align: center;
+  box-shadow: 2px 2px 2px #00A9FF(7, 165, 47, 0.567);
+  cursor: pointer;
+}
+
+.btncls {
+  text-align: center;
+}
+
+/* Style the navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style the logo */
+.logo1 {
+  width: 70px; /* Set the width of the logo to 30 pixels */
+  height: auto; /* Allow the height to adjust proportionally */
+  margin-right: 10px;
+  /* Adjust the margin between the logo and navigation */
+}
+
+/* Style the navigation menu */
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Style the container1 div */
+.container1 {
+  position: absolute;
+  top: 50%;
+  left: 71.25%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Semi-transparent white background */
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 400px; /* Adjust the maximum width as needed */
+  text-align: center;
+}
+

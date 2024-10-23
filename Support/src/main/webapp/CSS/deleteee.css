@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* WebKit scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #C2D9FF; /* Set the track background color */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7C73C0;; /* Set the thumb color */
+  border-radius: 6px; /* Add rounded corners to the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C2D9FF;; /* Change thumb color on hover */
+}
+
+body {
+  background-color: #C2D9FF;;;
+}
+
+h1 {
+  text-align: center;
+  font-size: 55px;
+  color: white;;
+  font-weight: bold;
+  margin: 50px 0 50px 0;
+}
+.right-half {
+  background-color: white;
+  width: 550px;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 0 0 80px 0;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  margin-left: 490px;
+}
+label {
+  font-weight: bold;
+  font-size: 25px;
+}
+input,
+select,
+option {
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  margin: 5px 0 10px 0;
+}
+
+
+.btncls {
+  text-align: center;
+}
+
+.dkt {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: 0;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin: 20px 0 0 0;
+  text-align: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
